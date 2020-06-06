@@ -118,6 +118,7 @@ label #cancel{
 
             nav{
                 height: 81px;
+                background-color: green;
             }
 
             nav img{
@@ -186,18 +187,24 @@ label #cancel{
     opacity: 0.6;
 }
 .h1{
-    font-size: 45px ;
+    font-size: 26px ;
     color:#235789;
     letter-spacing: 1px;
 }
 .h5{
     color: #210124;
     letter-spacing: 1px;
+    font-size: 18px;
+
 }
 .h3{
     color: #3B252C;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     letter-spacing: 0.5px;
+    font-size: 16px;
+}
+.btn-car{
+    font-size: 12px !important;
 }
 .about-head{
     text-align: center;
@@ -294,6 +301,7 @@ label #cancel{
 .btn{
     font-size: 22px;
     color: #7FD02C;
+    outline: none;
 }
 .btn:hover{
     border: 2px solid #7FD02C;
@@ -371,7 +379,52 @@ label #cancel{
     display: block;
 }
 
+@media(min-width:400px){
+    .h1{
+        font-size: 33px ;
+        color:#235789;
+        letter-spacing: 1px;
+    }
+    .h5{
+        color: #210124;
+        letter-spacing: 1px;
+        font-size: 22px;
+    
+    }
+    .h3{
+        color: #3B252C;
+        margin-bottom: 10px;
+        letter-spacing: 0.5px;
+        font-size: 16px;
+    }
+    .btn-car{
+        font-size: 16px !important;
+    }
+}
 
+@media(min-width:580px){
+    .h1{
+        font-size: 50px ;
+        color:#235789;
+        letter-spacing: 1px;
+    }
+    .h5{
+        color: #210124;
+        letter-spacing: 1px;
+        font-size: 24px;
+    
+    }
+    .h3{
+        color: #3B252C;
+        margin-bottom: 20px;
+        letter-spacing: 0.5px;
+        font-size: 18px;
+    }
+    .btn-car{
+        font-size: 22px !important;
+        margin-bottom: 15px;
+    }
+}
 
 
 @media(min-width:720px){
@@ -454,6 +507,10 @@ label #cancel{
     }
     .about-founder-name small{
         font-size: 16px;
+    }
+    .btn-car{
+        font-size: 27px !important;
+        margin-bottom: 15px;
     }
 }
 
