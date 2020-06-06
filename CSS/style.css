@@ -379,6 +379,36 @@ label #cancel{
     display: block;
 }
 
+.testi{
+    font-size: 18px;
+    color: #7FD02C;
+}
+.client-title{
+    font-size: 26px;
+    margin: 0;
+    padding-top: 10px;
+}
+#client{
+    background: url(../images/afterwards.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    padding: 40px 40px ;
+}
+.text-client-name{
+    color: #7FD02C;
+    text-transform: uppercase;
+}
+.text-client-name strong{
+    
+    color: #235789;
+}
+
+/* ------------------------------------------------------------------------- */
 @media(min-width:400px){
     .h1{
         font-size: 33px ;
@@ -468,6 +498,15 @@ label #cancel{
         font-size: 18px;
     }
     
+    .testi{
+        font-size: 22px;
+        color: #7FD02C;
+    }
+    .client-title{
+        font-size: 37px;
+        margin: 0;
+        padding-top: 5px;
+    }
 }
 
 @media(min-width:920px){
@@ -511,6 +550,9 @@ label #cancel{
     .btn-car{
         font-size: 27px !important;
         margin-bottom: 15px;
+    }
+    #client{
+        padding: 40px 10    0px ;
     }
 }
 
