@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif;
 }
 
 
@@ -190,6 +192,7 @@ label #cancel{
     font-size: 26px ;
     color:#235789;
     letter-spacing: 1px;
+    font-family: 'Balsamiq Sans', cursive;
 }
 .h5{
     color: #210124;
@@ -219,6 +222,7 @@ label #cancel{
     color: #7FD02C;
     font-size: 18px;
     letter-spacing: 1.5px;
+    font-family: 'Balsamiq Sans', cursive;
 }
 .about-header{
     font-size: 28px;
@@ -285,6 +289,8 @@ label #cancel{
 .arrivals{
     font-size: 20px;
     color: #7FD02C;
+    font-family: 'Balsamiq Sans', cursive;
+    /* font-weight: 600; */
 }
 .product-tittle{
     font-size: 30px;
@@ -382,6 +388,7 @@ label #cancel{
 .testi{
     font-size: 18px;
     color: #7FD02C;
+    font-family: 'Balsamiq Sans', cursive;
 }
 .client-title{
     font-size: 26px;
@@ -424,6 +431,7 @@ video {
       font-size: 20px;
       color: #7FD02C;
       margin: 20px 20px;
+      font-family: 'Balsamiq Sans', cursive;
       
   }
   .bussiness-title{
@@ -507,12 +515,13 @@ video {
 
 }
 .newsletter-text{
-    padding: 0px 10px;
+    padding: 0px 8px;
 }
 .input-email{
     border: none;
     border-bottom: 2px solid #7FD02C ;
     padding: 10px;
+    margin-bottom: 10px;
 }
 #email-icon-arrow{
     font-size: 35px;
