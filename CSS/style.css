@@ -26,20 +26,20 @@ nav img{
 
 nav ul{
     float: right;
-    margin-right:30px;
+    margin-right:10px;
 }
 
 nav ul li{
     display: inline-block;
     line-height: 87px;
-    margin: 0px 70px;
+    margin: 0px 15px;
 }
 
 nav ul li a{
     position: relative;
-    color: black !important;
+    color: rgb(86, 77, 77) !important;
     font-weight: 800;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: none !important;
     text-transform: uppercase;
     padding: 5px 0px;
@@ -51,7 +51,7 @@ nav ul li a:before{
     bottom: 0;
     height: 3px;
     width: 100%;
-    background: black;
+    background: rgb(86, 77, 77);
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 1s linear ;
@@ -59,12 +59,12 @@ nav ul li a:before{
 nav ul li a:hover:before{
     transform: scaleX(1);
     transform-origin: left;
-    color: black;
+    color: rgb(86, 77, 77);
 }
 
 label #btn,
 label #cancel{
-    color: black;
+    color: rgb(86, 77, 77);
     font-size: 32px;
     /* float: right !important; */
     right: 6% !important;
@@ -91,10 +91,10 @@ label #cancel{
     }
     
     nav ul li {
-        margin: 0px 50px;
+        margin: 0px 10px;
     }
     nav ul li a{
-        font-size: 19px;
+        font-size: 18px;
     }
 }
 @media (max-width:920px){
@@ -107,10 +107,10 @@ label #cancel{
 
     }
     nav ul li {
-        margin: 0px 30px;
+        margin: 0px 7px;
     }
     nav ul li a{
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
@@ -118,7 +118,7 @@ label #cancel{
 
             nav{
                 height: 81px;
-                background-color: green;
+                background-color: white;
             }
 
             nav img{
@@ -147,7 +147,7 @@ label #cancel{
 
             nav ul li{
                 display: block;
-                margin: 50px 0px;
+                margin: 35px 0px;
                 line-height: 30px;
             }
 
@@ -160,7 +160,7 @@ label #cancel{
             }
             label #btn,
             label #cancel{
-            color: black;
+            color: rgb(86, 77, 77);
             line-height: 85px;
             margin-right: 30px;
             }
@@ -398,6 +398,7 @@ label #cancel{
     align-items: center;
     min-height: 70vh;
     padding: 40px 40px ;
+    background-attachment: fixed;
 }
 .text-client-name{
     color: #7FD02C;
@@ -407,6 +408,128 @@ label #cancel{
     
     color: #235789;
 }
+.flex-video{
+    display: flex;
+    justify-content: center;
+
+}
+.video-bg{
+    background-color: gainsboro;
+}
+video {
+    width: 100vw;
+    height: auto;
+  }
+  .video-title{
+      font-size: 20px;
+      color: #7FD02C;
+      margin: 20px 20px;
+      
+  }
+  .bussiness-title{
+      font-size: 22px;
+      margin-top: 25px;
+      margin-bottom: 20px;
+  }
+  .iframe1{
+      border: 2px solid #7FD02C ;
+      box-shadow: 0 0 20px 10px  rgb(120, 226, 14);
+  }
+.footer{
+    padding: 30px 10px 40px 10px;
+}
+.img-week{
+    margin-top: -30px;
+}
+.weekends strong{
+    margin-right: 25px;
+    color: black;
+}
+.week-margin{
+    margin-top: -40px;
+    color: gray;
+}
+  .flex-box{
+      display: flex;
+      justify-content: center;
+      border-top: 1px solid #7FD02C;
+      padding-top: 7px;
+  }
+  .icons-social{
+      margin-left: 10px;
+  }
+  #social-i{
+      margin-left: 5px;
+      font-size: 18px;
+      color: black;
+  }
+  .contact{
+      font-size: 20px;
+  }
+  .contact-text{
+      color: black;
+  }
+  .contact-text:hover{
+      color: #7FD02C;
+  }
+  .col-contact{
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  .icon-contact{
+      margin-right: 20px;
+  }
+  #icon-contact-size{
+      font-size: 18px;
+      color: #7FD02C;
+  }
+.flex-contact{
+    display: flex;
+    justify-content: start;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.newsletter{
+    font-size: 20px;
+}
+.col-newsletter{
+    padding-top: 20px;
+}
+.newsletter-flex{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+
+}
+.newsletter-text{
+    padding: 0px 10px;
+}
+.input-email{
+    border: none;
+    border-bottom: 2px solid #7FD02C ;
+    padding: 10px;
+}
+#email-icon-arrow{
+    font-size: 35px;
+    margin-top: 8px;
+    margin-left: 5px;
+    color: red;
+}
+.right-header{
+    border-top: 1px solid black;
+    margin: 0px 0px;
+    font-size: 12px;
+}
+.right-header strong{
+    margin-right: 10px;
+    color: #7FD02C;
+}
+
 
 /* ------------------------------------------------------------------------- */
 @media(min-width:400px){
@@ -429,6 +552,12 @@ label #cancel{
     }
     .btn-car{
         font-size: 16px !important;
+    }
+}
+
+@media(min-width:576px),(max-width:652px){
+    .about-img-height{
+        height: 60vh;
     }
 }
 
@@ -507,6 +636,41 @@ label #cancel{
         margin: 0;
         padding-top: 5px;
     }
+    .video {
+        width: 100%;
+        height: 50vh;
+      }
+      .flex-video{
+          height: 50vh;
+          width: 100%;
+      }
+      .video-title{
+        font-size: 30px;
+        color: #7FD02C;
+        margin: 20px 20px;
+        
+    }
+    .bussiness-title{
+        font-size: 30px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .col-week{
+        margin-top: -28px;
+    }
+    .input-email{
+        width: 100%;
+    }
+    #social-i{
+        margin-left: 10px;
+        font-size: 18px;
+        color: black;
+    }
+    .right-header{
+        border-top: 1px solid black;
+        margin: 0px 100px;
+        font-size: 13px;
+    }
 }
 
 @media(min-width:920px){
@@ -554,6 +718,11 @@ label #cancel{
     #client{
         padding: 40px 10    0px ;
     }
+    .iframe1{
+        border: 0.5px solid #7FD02C ;
+        box-shadow: 0 0 35px 20px  rgb(120, 226, 14);
+        height: 70vh;
+    }
 }
 
 @media(min-width:992px){
@@ -587,5 +756,16 @@ label #cancel{
     }
     #product{
         padding: 30px 100px 30px 100px;
+    }
+    .video-title{
+        font-size: 37px;
+        color: #7FD02C;
+        margin: 20px 20px;
+        
+    }
+    .bussiness-title{
+        font-size: 37px;
+        margin-top: 25px;
+        margin-bottom: 20px;
     }
 }
