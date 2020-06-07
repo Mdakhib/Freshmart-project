@@ -5,7 +5,9 @@
     font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Slab', serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 nav{
@@ -208,6 +210,7 @@ label #cancel{
 }
 .btn-car{
     font-size: 12px !important;
+    cursor: pointer;
 }
 .about-head{
     text-align: center;
@@ -240,6 +243,7 @@ label #cancel{
     line-height: 18px;
     margin-top: 15px;
     font-weight: 700;
+    cursor: pointer;
 }
 .icon1{
     color: red;
@@ -282,6 +286,7 @@ label #cancel{
 }
 .col-head{
     text-align: center;
+    cursor: pointer;
 }
 #product{
     padding: 30px 0px 30px 0px;
@@ -326,6 +331,7 @@ label #cancel{
 }
 .card{
     margin-top: 40px;
+    cursor: pointer;
 }
 .sale-wrap{
     text-align: end;
@@ -418,6 +424,7 @@ label #cancel{
 .flex-video{
     display: flex;
     justify-content: center;
+    cursor: pointer;
 
 }
 .video-bg{
@@ -438,6 +445,9 @@ video {
       font-size: 22px;
       margin-top: 25px;
       margin-bottom: 20px;
+  }
+  .img-buss{
+      cursor: pointer;
   }
   .iframe1{
       border: 2px solid #7FD02C ;
@@ -476,6 +486,7 @@ video {
   }
   .contact-text{
       color: black;
+      cursor: pointer;
   }
   .contact-text:hover{
       color: #7FD02C;
@@ -490,6 +501,7 @@ video {
   #icon-contact-size{
       font-size: 18px;
       color: #7FD02C;
+      cursor: pointer;
   }
 .flex-contact{
     display: flex;
@@ -528,6 +540,7 @@ video {
     margin-top: 8px;
     margin-left: 5px;
     color: red;
+    cursor: pointer;
 }
 .right-header{
     border-top: 1px solid black;
